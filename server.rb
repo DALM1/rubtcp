@@ -11,7 +11,7 @@ loop do
   client = server.accept   
 
 
-  client.puts "ENTER THE PASSWORD :"
+  client.puts "ENTER THE PASSWORD ¨¨ :"
   password_attempt = client.gets.chomp
 
   if password_attempt == PASSWORD
